@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { getMove, getSpanishEffect, getSpanishFlavor, getSpanishName } from '../api'
-import { TypeBadge } from './PokemonCard'
+import { getMove, getSpanishEffect, getSpanishFlavor, getSpanishName } from '../../servicios/pokeApi'
+import { TypeBadge } from '../pokemon/PokemonCard'
 
 function MovimientoDetail({ name, pokemon }) {
   const [move, setMove] = useState(null)

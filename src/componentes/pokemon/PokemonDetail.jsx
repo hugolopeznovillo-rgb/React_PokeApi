@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import { getPokemon, getSpecies, getSpanishFlavor, getSpanishName } from '../api'
+import { getPokemon, getSpecies, getSpanishFlavor, getSpanishName } from '../../servicios/pokeApi'
 import { TypeBadge } from './PokemonCard'
-import MovimientoCard from './MovimientoCard'
+import MovimientoCard from '../movimientos/MovimientoCard'
 
 const MOVES_PER_PAGE = 12
 

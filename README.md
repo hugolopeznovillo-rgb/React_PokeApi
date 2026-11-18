@@ -34,8 +34,7 @@ El buscador del menú acepta nombres y números. El catálogo y las fichas muest
 
 ## Componentes principales
 
-- `src/componentes/Menu.jsx` y `Footer.jsx`: navegación y pie de página.
-- `src/componentes/PokemonCard.jsx`: ficha resumida de número, nombre y tipos.
-- `src/componentes/PokemonDetail.jsx`: datos, estadísticas, habilidades y movimientos.
-- `src/componentes/MovimientoCard.jsx` y `MovimientoDetail.jsx`: acceso y ficha del movimiento.
-- `src/api.js`: consultas parametrizadas a PokéAPI.
+- `src/componentes/layout/`: navegación y pie de página.
+- `src/componentes/pokemon/`: fichas resumidas y extensas de Pokémon.
+- `src/componentes/movimientos/`: fichas de movimientos.
+- `src/servicios/pokeApi.js`: consultas parametrizadas a PokéAPI.

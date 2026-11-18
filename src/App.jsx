@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
-import { getPokemonList } from './api'
-import Footer from './componentes/Footer'
-import Menu from './componentes/Menu'
-import MovimientoDetail from './componentes/MovimientoDetail'
-import PokemonCard from './componentes/PokemonCard'
-import PokemonDetail from './componentes/PokemonDetail'
+import { getPokemonList } from './servicios/pokeApi'
+import Footer from './componentes/layout/Footer'
+import Menu from './componentes/layout/Menu'
+import MovimientoDetail from './componentes/movimientos/MovimientoDetail'
+import PokemonCard from './componentes/pokemon/PokemonCard'
+import PokemonDetail from './componentes/pokemon/PokemonDetail'
 import './App.css'
 
 const PAGE_SIZE = 12
